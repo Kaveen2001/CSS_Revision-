@@ -1,0 +1,10 @@
+/*Grouping Selector*/
+
+/*h1, h2, h3 {*/
+/*    color: red;*/
+/*}*/
+
+h2, .class1, .class2, .class3 {
+    font-weight: bold;
+    color: gold;
+}

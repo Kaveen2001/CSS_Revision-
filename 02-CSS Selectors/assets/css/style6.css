@@ -1,0 +1,54 @@
+/*Pseudo Class Selector*/
+
+/*( : )*/
+h1 {
+    color: red;
+}
+
+/*:hover*/
+h1:hover {
+    color: greenyellow;
+}
+
+/*:active*/
+/*button:active {*/
+/*    color: red;*/
+/*}*/
+
+/*!*:visited*!*/
+/*a:visited {*/
+/*    color: plum;*/
+/*}*/
+
+/*!*:link*!*/
+/*a:link {*/
+/*    color: gold;*/
+/*}*/
+
+/*:focus*/
+/*input:focus {*/
+/*    background-color: greenyellow;*/
+/*}*/
+
+
+/*:first-child & :last-child & :nth-child*/
+
+/*li:first-child {*/
+/*    color: red;*/
+/*}*/
+
+/*li:last-child {*/
+/*    color: blue;*/
+/*}*/
+
+/*li:nth-child(even) {*/
+/*    color: green;*/
+/*}*/
+
+/*li:nth-child(n+4) {*/
+/*    color: green;*/
+/*}*/
+
+li:nth-child(3n-1) {
+    color: green;
+}

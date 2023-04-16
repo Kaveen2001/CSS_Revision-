@@ -1,0 +1,38 @@
+/*CSS Cascading*/
+
+/*> Inline Selector (Inline Style)*/
+/*> Universal Selector*/
+/*> Id Selector*/
+/*> Class Selector*/
+/*> Pseudo Selecor*/
+/*> Type Selector*/
+
+
+/*
+inline
+id
+pesudo selectors
+class selector
+Type
+*
+ */
+
+/*#myId {*/
+/*    color: greenyellow;*/
+/*}*/
+
+h1 {
+    color: red;
+}
+
+* {
+    color: yellow;
+}
+
+/*.myClass {*/
+/*    color: pink;*/
+/*}*/
+
+/*h1:nth-child(1) {*/
+/*    color: mediumpurple;*/
+/*}*/

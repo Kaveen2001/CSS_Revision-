@@ -1,0 +1,13 @@
+/*CSS Inheritance*/
+
+section {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+main {
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+}

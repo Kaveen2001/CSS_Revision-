@@ -1,0 +1,9 @@
+/*CSS Box Types*/
+
+span {
+    display: block;
+}
+
+h1 {
+    display: inline-block;
+}

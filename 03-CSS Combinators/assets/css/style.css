@@ -1,0 +1,42 @@
+/*CSS Combinators*/
+
+/*        There are 4 types of Combinator*/
+/*        1) Child Combinator - check direct child ( > )*/
+/*        2) Decendent Combinator - select the child if exist anywhere inside the parent ( " " space )*/
+/*        3) Adjacent Combinator - select the element which is located first after given first element ( + )*/
+/*        4) General Siblings Combinator - select the element which is located after given first element ( ~ )*/
+
+/*-----------------------------------------------------------------------*/
+
+/*        1) Child Combinator - check direct child ( > )*/
+/*        section > div {*/
+/*            color: red;*/
+/*        }*/
+
+/*        section > main > section > div {*/
+/*            color: green;*/
+/*        }*/
+
+
+/*-----------------------------------------------------------------------*/
+
+/*        2) Decendent Combinator - select the child if exist anywhere inside the parent ( " " space )*/
+
+/*section div {*/
+/*    color: blue;*/
+/*}*/
+
+/*-----------------------------------------------------------------------*/
+
+/*        3) Adjacent Combinator - select the element which is located first after given first element ( + )*/
+
+/*h1+h2 {*/
+/*    color: greenyellow;*/
+/*}*/
+
+/*-----------------------------------------------------------------------*/
+
+/*4) General Siblings Combinator - select the element which is located after given first element ( ~ )*/
+h1~h2 {
+    color: mediumpurple;
+}

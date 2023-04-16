@@ -1,0 +1,17 @@
+/*CSS Box Sizing*/
+
+body>div {
+    width: 300px;
+    height: 100px;
+}
+
+body>div:first-child {
+    background: lightskyblue;
+    border: 10px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body>div:nth-child(2) {
+    background: lightgreen;
+}

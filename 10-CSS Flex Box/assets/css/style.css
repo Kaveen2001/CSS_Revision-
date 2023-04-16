@@ -1,0 +1,30 @@
+/*CSS Flex Box Part-01*/
+
+section {
+    width: 1000px;
+    height: 300px;
+    border: 5px solid red;
+
+    position: relative;
+}
+
+section>div {
+    width: calc(1000px / 3);
+    height: 300px;
+
+    position: absolute;
+}
+
+section>div:nth-child(1) {
+    background: deepskyblue;
+}
+section>div:nth-child(2) {
+    background: mediumpurple;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+section>div:nth-child(3) {
+    background: greenyellow;
+    right: 0;
+}
